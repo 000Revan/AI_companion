@@ -189,7 +189,7 @@ if prompt:  # 字符串会自动转换为字符串，如果字符串非空，则
             # 解包
             *st.session_state.messages,
         ],
-        stream=True
+        stream=True     #流式输出
     )
 
     # 输出大模型返回的结果(非流式输出的解析方式)
