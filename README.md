@@ -1,6 +1,8 @@
 streamlit==1.28.0
 openai==1.3.0
 
+DEEPSEEK_API_KEY需在环境变量中添加
+
 基于DeepSeek大语言模型的智能对话
 支持流式响应，体验更自然
 可自定义AI伴侣的昵称和性格设定
