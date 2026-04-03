@@ -82,7 +82,6 @@ def delete_session(session_name):
             if session_name == st.session_state.current_session:
                 st.session_state.messages = []
                 st.session_state.current_session = generate_session_name()
-
     except Exception:
         st.error("删除会话失败！")
 
